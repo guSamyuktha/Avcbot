@@ -1,0 +1,451 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+      "tag": "courses",
+      "patterns": [
+        "What types of programs are available?",
+        "what are the programs",
+        "What type of degree courses?",
+        "What courses are available?",
+        "What types of courses are available?",
+        "how many departments are in your college",
+        "What are the courses offered",
+        "what are the departments"
+      ],
+      "responses": [
+        "Bachelor degree courses : CSE, IT, EEE, ECE, MECH, CIVIL, ICE Master degree courses: MCA, MBA, ME-CSE ",
+        "BE: CSE,CIVIL,EEE,ECE,MECH,ICE. BTECH; IT ME: CSE. MBA, MCA"
+      ]
+      },
+      {
+
+        "tag": "location",
+        "patterns": [
+          "What is the location of the college?",
+          "Where is the college located?",
+          "What is the address of the college?",
+          "where is the college located",
+          "college is located at",
+          "where is college",
+          "where is college located",
+          "address of college",
+          "how to reach college",
+          "college location",
+          "college address",
+          "wheres the college",
+          "how can I reach college",
+          "whats is the college address",
+          "what is the address of college",
+          "address",
+          "location"
+        ],
+        "responses": [
+          "College is located in Mannampandal,Mayiladuthurai",
+          "Mannambandal in Mayiladuthurai district",
+          "Address of the college: Manampandal, Mayiladuthurai, 609305"
+        ]
+      },
+      {
+        "tag": "collegeTime",
+        "patterns": [
+          "College timing?",
+          "working hours of the college?",
+          "When college open in morning?",
+          "timing of college",
+          "what is college timing",
+          "working days",
+          "when are you guys open",
+          "what are your hours",
+          "hours of operation",
+          "when is the college open",
+          "college timing",
+          "what about college timing",
+          "is college open on saturday",
+          "tell something about college timing",
+          "what is the college  hours",
+          "when should i come to college",
+          "when should i attend college",
+          "what is my college time",
+          "college timing",
+          "timing college"
+        ],
+        "responses": [
+          "College Timing is Morning 9.00 AM to evening 04.50 PM",
+          "Working hours 9.00-4.50",
+          "College is open 9am-5pm Monday-Friday!"
+        ]
+      },
+      {
+        "tag": "options",
+        "patterns": [
+            "How you could help me?",
+            "What you can do?",
+            "What help you provide?",
+            "How you can be helpful?",
+            "What support is offered"
+        ],
+        "responses": [
+            "I am a chatbot for AVC College. I can chat with you. Try asking me your doubts about college! "
+       ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+            "Bye",
+            "See you later",
+            "Goodbye",
+            "Get lost",
+            "Till next time",
+            "bbye"
+        ],
+        "responses": [
+            "See you!",
+            "Have a nice day",
+            "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "whatsup",
+        "patterns": [
+            "Whats up",
+            "Wazzup",
+            "How are you",
+            "sup","How you doing"
+        ],
+        "responses": [
+            "All good..What about you?"
+        ]
+    },
+    {
+      "tag": "number",
+      "patterns": [
+
+              "more info",
+              "contact info",
+              "how to contact college",
+              "college telephone number",
+              "college number",
+              "What is your contact no",
+              "Contact number?",
+              "how to call you",
+              "College phone no?",
+              "how can i contact you",
+              "Can i get your phone number",
+              "how can i call you",
+              "phone number",
+              "phone no",
+              "call"
+      ],
+      "responses": [
+              "To get more details click <a target=\"_blank\" href=\"http://www.avccengg.net\"> here</a>"
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+              "information about fee",
+              "information on fee",
+              "tell me the fee",
+              "college fee",
+              "fee per semester",
+              "what is the fee of each semester",
+              "what is the fees of each year",
+              "what is fee",
+              "what is the fees",
+              "how much is the fees",
+              "fees for first year",
+              "fees",
+              "about the fees",
+              "tell me something about the fees"
+      ],
+      "responses": [
+              "For Fee detail click <a target=\"_blank\" href=\"http://avccengg.net/administrative/collegefee.php\"> here</a>",
+              "For Fee detail click <a target=\"_blank\" href=\"http://avccengg.net/administrative/images/CFD.pdf\"> here</a>"
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+              "hostel facility",
+              "hostel servive",
+              "hostel location",
+              "hostel address",
+              "hostel facilities",
+              "hostel fees",
+              "Does college provide hostel",
+              "Is there any hostel",
+              "Where is hostel",
+              "do you have hostel",
+              "do you guys have hostel",
+              "hostel",
+              "hostel capacity",
+              "what is the hostel fee",
+              "how to get in hostel",
+              "what is the hostel address",
+              "how far is hostel from college",
+              "hostel college distance",
+              "where is the hostel",
+              "how big is the hostel",
+              "distance between college and hostel",
+              "distance between hostel and college"
+      ],
+      "responses": [
+              "AVC College Of Engineering provides hostel facility"
+      ]
+    },
+    {
+      "tag": "suggest",
+      "patterns": [
+          "you are useless","useless","suggest","suggestions","you are bad"
+      ],
+      "responses": [
+          " Thank you for helping me improve!"
+      ]
+    },
+    {
+      "tag": "event",
+      "patterns": [
+              "events organised",
+              "list of events",
+              "list of events organised in college",
+              "list of events conducted in college",
+              "What events are conducted in college",
+              "Are there any event held at college",
+              "Events?",
+              "functions",
+              "what are the events",
+              "tell me about events",
+              "what about events"
+      ],
+      "responses": [
+              "Workshops,webinar, Sports Day, Conference and various other event conducted in the college. For more information you can visit college Website <a target=\"_blank\" href=\"http://www.avccengg.net\"> here "
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": [
+              "is there any library",
+              "library facility",
+              "library facilities",
+              "do you have library",
+              "does the college have library facility",
+              "college library",
+              "where can i get books",
+              "book facility",
+              "Where is library",
+              "Library",
+              "Tell me about library",
+              "how many libraries"
+      ],
+      "responses": [
+              "Common UG library provides 38600 volumns of text and reference books with 80 National and International journals. Department libraries are also available for every departments. PG Library provides 18100 volume of text and reference books.  "
+      ]
+    },
+    {
+      "tag": "infrastructure",
+      "patterns": [
+              "how is college infrastructure",
+              "infrastructure",
+              "college infrastructure"
+      ],
+      "responses": [
+              "AVC Engineering College has Excellent Infrastructure. Campus is clean. The college is well equipped with Intel pentium based windows,Linux servers,Labs With Good Speed of Internet connection"
+      ]
+    },
+      {
+        "tag": "whoami",
+        "patterns": [
+          "Who are you?",
+          "What is your name?",
+          "How could i call you?"
+        ],
+        "responses": [
+          "I'm AI chatbot for AVCCE",
+          "I'm AVCBOT, You can ask me queries about college"
+        ]
+      },
+      {
+        "tag": "menu",
+        "patterns": [
+                "food menu",
+                "food in canteen",
+                "Whats there on menu",
+                "what is available in college canteen",
+                "what foods can we get in college canteen"
+        ],
+        "responses": [
+                "we serve Icecream, Parota, Samosa, Vegetable briyani, Chappathi, Fried Rice and many more on menu"
+        ]
+      },
+      {
+        "tag": "placement",
+        "patterns": [
+                "What is college placement",
+                "Which companies visit in college",
+                "What is average package",
+                "companies visit",
+                "package",
+                "placement",
+                "recruitment",
+                "companies"
+        ],
+        "responses": [
+                "Every year many students are selected in companies like Wipro,Infosys,TCS, CTS, etc through on/off Campus placements "
+        ]
+      },
+      {
+        "tag": "uniform",
+        "patterns": [
+                "college dress code",
+                "college dresscode",
+                "what is the uniform",
+                "can we wear casuals",
+                "Does college have an uniform",
+                "Is there any uniform",
+                "uniform",
+                "what about uniform",
+                "do we have to wear uniform"
+        ],
+        "responses": [
+                "In lab hours students should wear uniform with proper shoes. Girl students have to wear light blue overcoats reaching down their knees. Uniform for boys is dark blue pant and light blue half shirt."
+        ]
+      },
+      {
+        "tag":"ragging",
+        "patterns":[
+                "ragging",
+                "is ragging practice active in college",
+                "does college have any antiragging facility",
+                "is there any ragging cases",
+                "is ragging done here",
+                "ragging juniors",
+                "ragging history",
+                "ragging incidents"
+        ],
+        "responses": [
+                "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+        ]
+      },
+      {
+        "tag": "task",
+        "patterns": [
+                "what can you do",
+                "what are the thing you can do",
+                "things you can do",
+                "what can u do for me",
+                "how u can help me",
+                "why i should use you"
+        ],
+        "responses": [
+                "I can answer to low-intermediate questions regarding college",
+                "You can ask me questions regarding college, and i will try to answer them"
+        ]
+      },
+      {
+        "tag": "csehod",
+        "patterns": [
+                "Who is CSE HOD",
+                "Where is CSE HOD",
+                "CSE hod",
+                "name of CSE hod"
+        ],
+        "responses": [
+                "Dr.S.Padmapriya is CSE HOD who is available on Ground floor"
+        ]},
+      {
+        "tag": "salutaion",
+        "patterns": [
+                "okk",
+                "okie",
+                "nice work",
+                "well done",
+                "good job",
+                "thanks for the help",
+                "Thank You",
+                "its ok",
+                "Thanks",
+                "k",
+                "ok",
+                "okay"
+        ],
+        "responses": [
+                "I am glad I helped you",
+                "welcome, anything else i can assist you with?"
+        ]
+      },
+      {
+        "tag":"hod",
+        "patterns":[
+                "hod",
+                "hod name",
+                "who is the hod"
+        ],
+        "responses":[
+                "HODs differ for each branch, please be more specific like: (HOD it)"
+        ]
+},
+      {
+        "tag":"transport",
+        "patterns":[
+                "mode of transportation",
+                "how to get to college",
+                "buses for college",
+                "college buses",
+                "bus routes",
+                "list of buses for travelling"
+        ],
+        "responses":[
+                "College buses are available to all routes. For Fee detail click <a target=\"_blank\" href=\"http://avccengg.net/Facilities/transport.php\"> here</a>"
+        ]
+},
+      {
+        "tag": "canteen",
+        "patterns": [
+                "food facilities",
+                "canteen facilities",
+                "canteen facility",
+                "is there any canteen",
+                "Is there a cafetaria in college",
+                "Does college have canteen",
+                "Where is canteen",
+                "where is cafetaria",
+                "canteen",
+                "Cafetaria"
+        ],
+        "responses": [
+                "In our college canteen variety of foods available"
+        ]
+      }
+    ]
+  }
