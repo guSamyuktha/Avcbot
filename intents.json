@@ -373,17 +373,6 @@
         ]
       },
       {
-        "tag": "csehod",
-        "patterns": [
-                "Who is CSE HOD",
-                "Where is CSE HOD",
-                "CSE hod",
-                "name of CSE hod"
-        ],
-        "responses": [
-                "Dr.S.Padmapriya is CSE HOD who is available on Ground floor"
-        ]},
-      {
         "tag": "salutaion",
         "patterns": [
                 "okk",
